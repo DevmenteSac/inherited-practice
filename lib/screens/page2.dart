@@ -15,7 +15,7 @@ class _Page2State extends State<Page2> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text("Provider Practice Pagina 2"),
+        title: const Text("Inherited Practice Pagina 2"),
       ),
       body: Center(
         child: Column(

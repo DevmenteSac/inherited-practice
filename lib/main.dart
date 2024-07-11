@@ -4,7 +4,7 @@ import 'package:inherited_practice/providers/counter_provider.dart';
 import 'package:inherited_practice/screens/home_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       counterProvider: counterProvider,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Material App',
+        title: 'Ah App',
         theme: ThemeData(primarySwatch: Colors.purple),
         home: const HomeScreen(),
       ),

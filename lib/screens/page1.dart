@@ -22,7 +22,7 @@ class _Page1State extends State<Page1> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text("Provider Practice Pagina 1"),
+        title: const Text("Inherited Practice Pagina 1"),
         actions: [
           IconButton(
               onPressed: () {
